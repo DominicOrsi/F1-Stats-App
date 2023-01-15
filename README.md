@@ -2,7 +2,7 @@
 A Formula 1 drivers and circuits statistics app
 
 ## **NOTES ON DATABASE**
-If the app is not used within one week of inactivity Supabase will pause the project. That means none of the buttons will work. In order to get around this please contact me and I will start the project up again. Sorry about this but it is a downside of using Supabase's free tier. Thanks. Also all sql insert statements are stored in the sql folder and the presentation is in the presentation folder.
+If the app is not used within one week of inactivity Supabase will pause the project. That means none of the buttons will work. In order to get around this please contact me and I will start the project up again. Sorry about this but it is a downside of using Supabase's free tier. Thanks. Also all sql insert statements are stored in the sql folder.
 
 ## Project Summary
 Green Sector provides new and existing Formula 1 fans with an easy to use and straight forward way to get / stay up to date with the current statistics of both the drivers and circuits in Formula 1. 
