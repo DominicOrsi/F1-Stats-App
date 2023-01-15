@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".search.SearchAscOrDesc">
+
+    <ProgressBar
+        android:id="@+id/progressbar_spinner_top_bottom"
+        style="@style/progress_bar_spinner"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:elevation="100dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        style="@style/driver_page"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:text="@string/asc_desc_choose"/>
+
+    <Button
+        android:id="@+id/asc_button"
+        style="@style/track_home_page_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:text="@string/asc_desc_top_5"
+        android:tag="0"/>
+
+    <Button
+        android:id="@+id/desc_button"
+        style="@style/track_home_page_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="345dp"
+        android:text="@string/asc_desc_bottom_5"
+        android:tag="1"/>
+</FrameLayout>

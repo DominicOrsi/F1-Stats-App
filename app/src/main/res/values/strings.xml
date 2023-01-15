@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Green Sector</string>
+
+    <!--*** Circuit Fragment Strings ***-->
+    <!-- Circuit Name Strings -->
+    <string-array name="track_names">
+        <item>Bahrain</item>
+        <item>Jeddah</item>
+        <item>Australia</item>
+        <item>Emilia-Romagna</item>
+        <item>Miami</item>
+        <item>Barcelona-Catalunya</item>
+        <item>Monaco</item>
+        <item>Azerbaijan</item>
+        <item>Canada</item>
+        <item>Silverstone</item>
+        <item>Red Bull Ring</item>
+        <item>France</item>
+        <item>Hungaroring</item>
+        <item>Spa</item>
+        <item>Zandvoort</item>
+        <item>Monza</item>
+        <item>Singapore</item>
+        <item>Suzuka</item>
+        <item>Circuit of the Americas</item>
+        <item>Mexico</item>
+        <item>Sao Paulo</item>
+        <item>Abu Dhabi</item>
+    </string-array>
+
+    <!-- Circuit Names -->
+    <string name="bahrain">Bahrain</string>
+    <string name="jeddah">Jeddah</string>
+    <string name="australia">Australia</string>
+    <string name="emilia_romagna">Emilia-Romagna</string>
+    <string name="miami">Miami</string>
+    <string name="barcelona_catalunya">Barcelona-Catalunya</string>
+    <string name="monaco">Monaco</string>
+    <string name="azerbaijan">Azerbaijan</string>
+    <string name="canada">Canada</string>
+    <string name="silverstone">Silverstone</string>
+    <string name="red_bull_ring">Red Bull Ring</string>
+    <string name="france">France</string>
+    <string name="hungaroring">Hungaroring</string>
+    <string name="spa">Spa</string>
+    <string name="zandvoort">Zandvoort</string>
+    <string name="monza">Monza</string>
+    <string name="singapore">Singapore</string>
+    <string name="suzuka">Suzuka</string>
+    <string name="circuit_of_the_americas">Circuit of the Americas</string>
+    <string name="mexico">Mexico</string>
+    <string name="sao_paulo">Sao Paulo</string>
+    <string name="abu_dhabi">Abu Dhabi</string>
+    <!--*** End Circuit Fragment Strings ***-->
+
+    <!-- Circuit Page Strings -->
+    <string name="circuit_title">%s</string>
+    <string name="circuit_length">Length</string>
+    <string name="circuit_distance_value">%s</string>
+    <string name="circuit_length_value">%s</string>
+    <string name="circuit_distance">Distance</string>
+    <string name="lap_record_value">%s</string>
+    <string name="lap_record">Lap Record</string>
+    <string name="first_gp_value">%d</string>
+    <string name="first_gp">First GP</string>
+    <string name="laps">Laps</string>
+    <string name="num_turns_value">%d</string>
+    <string name="turns">Turns</string>
+    <string name="left_turns_value">%d</string>
+    <string name="left_turns">Left Turns</string>
+    <string name="right_turns_val">%d</string>
+    <string name="right_turns">Right Turns</string>
+    <string name="lap_count_val">%d</string>
+
+    <!-- Driver Fragment Strings -->
+    <string name="driver_name">%s</string>
+    <string name="driver_number">%d</string>
+
+    <!-- Career Strings -->
+    <string name="career_header">Career</string>
+    <string name="career_wins">%d</string>
+    <string name="career_podiums">%d</string>
+    <string name="career_fastest_laps">%d</string>
+    <string name="career_races">%d</string>
+    <string name="career_races_text">Grand Prixs</string>
+
+
+    <!-- Season Strings -->
+    <string name="season_header">Season</string>
+    <string name="season_wins">%d</string>
+    <string name="season_podiums">%d</string>
+    <string name="season_fastest_laps">%d</string>
+    <string name="season_races">%d</string>
+
+    <!-- DOB and Nationality Strings -->
+    <string name="dob_text">Date of Birth</string>
+    <string name="dob">%s</string>
+    <string name="nationality_text">Nationality</string>
+    <string name="nationality">%s</string>
+
+    <!-- General Purpose Strings -->
+    <string name="wins_text">Wins</string>
+    <string name="podiums_text">Podiums</string>
+    <string name="fastest_laps_text">Fastest Laps</string>
+    <string name="races_text">Grand Prixs</string>
+    <!-- End of Driver Fragment Strings -->
+
+    <!-- *** Driver Main Page Strings *** -->
+    <string name="max_verstappen">Max Verstappen</string>
+    <string name="cherles_leclerc">Cherles Leclerc</string>
+    <string name="sergio_perez">Sergio Perez</string>
+    <string name="george_russell">George Russell</string>
+    <string name="carlos_sainz">Carlos Sainz</string>
+    <string name="lewis_hamilton">Lewis Hamilton</string>
+    <string name="lando_norris">Lando Norris</string>
+    <string name="esteban_ocon">Esteban Ocon</string>
+    <string name="fernando_alonso">Fernando Alonso</string>
+    <string name="valtteri_bottas">Valtteri Bottas</string>
+    <string name="daniel_riccardo">Daniel Riccardo</string>
+    <string name="sebastian_vettel">Sebastian Vettel</string>
+    <string name="kevin_magnussen">Kevin Magnussen</string>
+    <string name="pierre_gasly">Pierre Gasly</string>
+    <string name="lance_stroll">Lance Stroll</string>
+    <string name="mick_schumacher">Mick Schumacher</string>
+    <string name="yuki_tsunoda">Yuki Tsunoda</string>
+    <string name="zhou_guanyu">Zhou Guanyu</string>
+    <string name="alexander_albon">Alexander Albon</string>
+    <string name="nicholas_latifi">Nicholas Latifi</string>
+    <string name="drivers">Drivers</string>
+    <string name="circuits">Circuits</string>
+    <!-- *** End of Driver Main Page Strings *** -->
+
+    <!-- Search Fragment Strings -->
+    <string name="search">Search</string>
+    <string name="circuit_searches">Circuit Searches</string>
+    <string name="fastest_lap_time">Fastest Lap Time</string>
+    <string name="longest_lap_distance">Longest Lap Distance</string>
+    <string name="fastest_lap_time_overall">Fastest Lap Time Overall</string>
+    <string name="longest_race_distance">Longest Race Distance</string>
+    <string name="driver_searches">Driver Searches</string>
+    <string name="wins">Wins</string>
+    <string name="podiums">Podiums</string>
+    <string name="races">Races</string>
+    <string name="fastest_laps">Fastest Laps</string>
+    <string name="dnfs">DNFs</string>
+    <string name="standings">Standings</string>
+    <string name="avg_points">Avg Points</string>
+    <string name="avg_finish">Avg Finish</string>
+    <string name="narrowed_driver_searches">Narrowed Driver Searches</string>
+    <string name="top_points">Top Points</string>
+    <string name="top_finishes">Top Finishes</string>
+    <string name="add_update_remove">Add / Update / Remove</string>
+    <string name="add_fastest_lap">Fastest Lap</string>
+
+    <!-- Search Result Fragment -->
+    <string name="search_name">%s</string>
+    <!-- Number One -->
+    <string name="number_one">1.</string>
+    <string name="search_number_one_name">%s</string>
+    <string name="search_number_one_result">%s</string>
+    <!-- NUmber Two -->
+    <string name="search_number_two">2.</string>
+    <string name="search_number_two_name">%s</string>
+    <string name="search_number_two_result">%s</string>
+    <!-- Number Three -->
+    <string name="search_number_three">3.</string>
+    <string name="search_number_three_name">%s</string>
+    <string name="search_number_three_result">%s</string>
+    <!-- Number Four -->
+    <string name="search_number_four">4.</string>
+    <string name="search_number_four_name">%s</string>
+    <string name="search_number_four_result">%s</string>
+    <!-- Number Five -->
+    <string name="search_number_five">5.</string>
+    <string name="search_number_five_name">%s</string>
+    <string name="search_number_five_result">%s</string>
+    <!-- End of Search Result Fragment -->
+
+    <!-- Choose Circuit Search Fragment-->
+    <string name="search_circuit_choose">Choose a Circuit</string>
+
+    <!-- Asc or Desc Search Fragment -->
+    <string name="asc_desc_choose">Choose</string>
+    <string name="asc_desc_top_5">Top 5</string>
+    <string name="asc_desc_bottom_5">Bottom 5</string>
+
+    <!-- Choose Driver Search Fragment -->
+    <string name="choose_a_driver">Choose a Driver</string>
+
+    <!-- Driver Update Lap Time Fragment -->
+    <string name="update_title">Update Drivers Fastest Lap Time</string>
+    <string name="update_lap">Lap:</string>
+    <string name="update_lap_hint">Lap</string>
+    <string name="update_lap_time">Lap Time:</string>
+    <string name="update_lap_time_hint">Lap Time in seconds</string>
+    <string name="update_add_bt">Add</string>
+    <string name="update_update_bt">Update</string>
+    <string name="update_remove_bt">Remove</string>
+    <string name="temp">NONE</string>
+
+
+</resources>

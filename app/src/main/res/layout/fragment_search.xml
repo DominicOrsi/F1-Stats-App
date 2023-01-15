@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search.SearchFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:rowCount="7"
+        android:columnCount="3">
+
+        <TextView
+            android:id="@+id/search_result_search_name"
+            style="@style/driver_page"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:textSize="45sp"
+            android:text="@string/search_name"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/search_result_image"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/question_mark"/>
+
+        <TextView
+            android:id="@+id/search_result_number_one"
+            style="@style/driver_page"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/number_one"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/search_result_name_one"
+            style="@style/search_result_text_num_one"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="@string/search_number_one_name"/>
+
+        <TextView
+            android:id="@+id/search_result_input_one"
+            style="@style/search_result_text_num_one"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:padding="10dp"
+            android:text="@string/search_number_one_result"/>
+
+        <TextView
+            android:id="@+id/search_result_number_two"
+            style="@style/driver_page"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="@string/search_number_two"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/search_result_name_two"
+            style="@style/search_result_text"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="@string/search_number_two_name"/>
+
+        <TextView
+            android:id="@+id/search_result_input_two"
+            style="@style/search_result_text"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="@string/search_number_two_result"/>
+
+        <TextView
+            android:id="@+id/search_result_number_three"
+            style="@style/driver_page"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="@string/search_number_three"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/search_result_name_three"
+            style="@style/search_result_text"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="@string/search_number_three_name"/>
+
+        <TextView
+            android:id="@+id/search_result_input_three"
+            style="@style/search_result_text"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:text="@string/search_number_three_result"/>
+
+        <TextView
+            android:id="@+id/search_result_number_four"
+            style="@style/driver_page"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="@string/search_number_four"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/search_result_name_four"
+            style="@style/search_result_text"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:text="@string/search_number_four_name"/>
+
+        <TextView
+            android:id="@+id/search_result_input_four"
+            style="@style/search_result_text"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:text="@string/search_number_four_result"/>
+
+        <TextView
+            android:id="@+id/search_result_number_five"
+            style="@style/driver_page"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="@string/search_number_five"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/search_result_name_five"
+            style="@style/search_result_text"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:text="@string/search_number_five_name"/>
+
+        <TextView
+            android:id="@+id/search_result_input_five"
+            style="@style/search_result_text"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:text="@string/search_number_five_result"/>
+    </GridLayout>
+
+</FrameLayout>

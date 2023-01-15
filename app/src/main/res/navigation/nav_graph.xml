@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/circuit_home">
+
+    <fragment
+        android:id="@+id/circuit_home"
+        android:name="com.f1stats.greensector.circuit.CircuitsMainFragment"
+        android:label="Circuits"
+        tools:layout="@layout/fragment_circuits_main">
+        <action
+            android:id="@+id/show_circuit_detail"
+            app:destination="@id/circuit_detail"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/drivers_home"
+        android:name="com.f1stats.greensector.driver.DriversMainFragment"
+        android:label="Drivers"
+        tools:layout="@layout/fragment_drivers_main">
+        <action
+            android:id="@+id/show_driver_detail"
+            app:destination="@id/driver_detail"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/database_search"
+        android:name="com.f1stats.greensector.search.SearchMainFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search_main">
+        <action
+            android:id="@+id/show_search_result"
+            app:destination="@id/search_detail"/>
+        <action
+            android:id="@+id/show_search_circuit_select"
+            app:destination="@id/search_circuit_select"/>
+        <action
+            android:id="@+id/show_search_asc_desc"
+            app:destination="@id/search_asc_desc"/>
+        <action
+            android:id="@+id/show_search_driver_select"
+            app:destination="@id/search_driver_select"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/circuit_detail"
+        android:name="com.f1stats.greensector.circuit.CircuitsFragment"
+        tools:layout="@layout/fragment_circuits">
+        <argument
+            android:name="track_id"
+            android:defaultValue="1"
+            app:argType="integer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/driver_detail"
+        android:name="com.f1stats.greensector.driver.DriversFragment"
+        tools:layout="@layout/fragment_drivers">
+        <argument
+            android:name="driver_id"
+            android:defaultValue="1"
+            app:argType="integer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_detail"
+        android:name="com.f1stats.greensector.search.SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <argument
+            android:name="searchId"
+            android:defaultValue="1"
+            app:argType="integer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_circuit_select"
+        android:name="com.f1stats.greensector.search.SearchCircuitSelectFragment"
+        tools:layout="@layout/fragment_search_circuit_select">
+        <argument
+            android:name="searchId"
+            android:defaultValue="101"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/search_circuit_to_detail"
+            app:destination="@id/search_detail"/>
+        <action
+            android:id="@+id/search_circuit_to_update"
+            app:destination="@id/update_driver_fastest_lap"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_asc_desc"
+        android:name="com.f1stats.greensector.search.SearchAscOrDesc"
+        tools:layout="@layout/fragment_search_asc_or_desc">
+        <argument
+            android:name="searchId"
+            android:defaultValue="100"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/search_asc_to_detail"
+            app:destination="@id/search_detail"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_driver_select"
+        android:name="com.f1stats.greensector.driver.SearchDriverSelectFragment"
+        tools:layout="@layout/fragment_search_driver_select">
+        <argument
+            android:name="searchId"
+            android:defaultValue="101"
+            app:argType="integer"/>
+        <action
+            android:id="@+id/search_driver_to_detail"
+            app:destination="@id/search_detail"/>
+        <action
+            android:id="@+id/search_driver_to_circuit"
+            app:destination="@id/search_circuit_select"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/update_driver_fastest_lap"
+        android:name="com.f1stats.greensector.search.SearchUpdateFastestLapFragment"
+        tools:layout="@layout/fragment_search_update_fastest_lap">
+        <action
+            android:id="@+id/update_to_search_home"
+            app:destination="@id/database_search"/>
+    </fragment>
+
+</navigation>

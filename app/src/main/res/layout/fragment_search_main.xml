@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search.SearchMainFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="20"
+        android:columnCount="2"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/driver_page"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/circuit_searches"/>
+
+        <Button
+            android:id="@+id/search_circuit_fastest_lap"
+            style="@style/search_button"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/fastest_lap_time"
+            android:tag="1"/>
+
+        <Button
+            android:id="@+id/search_circuit_longest_lap"
+            style="@style/search_button"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="@string/longest_lap_distance"
+            android:tag="2"/>
+
+        <Button
+            android:id="@+id/search_circuit_fastest_overall"
+            style="@style/search_button"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:text="@string/fastest_lap_time_overall"
+            android:tag="3"/>
+
+        <Button
+            android:id="@+id/search_circuit_longest_race"
+            style="@style/search_button"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:text="@string/longest_race_distance"
+            android:tag="4"/>
+
+        <TextView
+            style="@style/driver_page"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/driver_searches"/>
+
+        <Button
+            android:id="@+id/search_driver_wins"
+            style="@style/search_button"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="@string/wins"
+            android:tag="5"/>
+
+        <Button
+            android:id="@+id/search_driver_podiums"
+            style="@style/search_button"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:text="@string/podiums"
+            android:tag="6"/>
+
+        <Button
+            android:id="@+id/search_driver_poles"
+            style="@style/search_button"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="@string/races"
+            android:tag="7"/>
+
+        <Button
+            android:id="@+id/search_driver_fastest_lap"
+            style="@style/search_button"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:text="@string/fastest_laps"
+            android:tag="8"/>
+
+        <Button
+            android:id="@+id/search_driver_races"
+            style="@style/search_button"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="@string/dnfs"
+            android:tag="9"/>
+
+        <Button
+            android:id="@+id/search_driver_standings"
+            style="@style/search_button"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:text="@string/standings"
+            android:tag="10"/>
+
+        <Button
+            android:id="@+id/search_driver_avg_points"
+            style="@style/search_button"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="@string/avg_points"
+            android:tag="11"/>
+
+        <!-- Have an top 5 or bottom 5 selection then either chose the first 5
+        returned for top 5 or the bottom 5 based off the selection -->
+        <Button
+            android:id="@+id/search_driver_avg_position"
+            style="@style/search_button"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:text="@string/avg_finish"
+            android:tag="12"/>
+
+        <TextView
+            style="@style/driver_page"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:textSize="17sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/narrowed_driver_searches"/>
+
+        <Button
+            android:id="@+id/search_driver_top_points"
+            style="@style/search_button"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:text="@string/top_points"
+            android:tag="13"/>
+
+        <Button
+            android:id="@+id/search_driver_top_finishes"
+            style="@style/search_button"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:text="@string/top_finishes"
+            android:tag="14"/>
+
+        <TextView
+            style="@style/driver_page"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:text="@string/add_update_remove"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/fastest_lap_update"
+            style="@style/search_button"
+            android:layout_width="match_parent"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:text="@string/add_fastest_lap"
+            android:tag="15"/>
+
+    </GridLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar_spinner_search"
+        style="@style/progress_bar_spinner"
+        android:visibility="invisible"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

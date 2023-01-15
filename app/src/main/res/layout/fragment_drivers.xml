@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="7"
+    android:id="@+id/driver_grid">
+
+    <ImageView
+        android:id="@+id/driver_image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_column="0"
+        android:src="@drawable/question_mark"/>
+
+    <TextView
+        android:id="@+id/driver_name"
+        style="@style/driver_page_input_value"
+        android:layout_gravity="top"
+        android:layout_width="199dp"
+        android:layout_height="80dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:text="@string/driver_name" />
+
+    <TextView
+        android:id="@+id/driver_number"
+        style="@style/driver_page_input_value"
+        android:textSize="60sp"
+        android:layout_row="0"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_column="1"
+        android:text="@string/driver_number" />
+
+    <!-- Career Section -->
+    <TextView
+        android:id="@+id/career_section"
+        style="@style/driver_page"
+        android:text="@string/career_header"
+        android:layout_rowWeight="0"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="5dp"
+        android:layout_row="1"
+        android:layout_columnSpan="0"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/divider_style" />
+
+    <TextView
+        android:id="@+id/career_wins"
+        style="@style/driver_page_input_value"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/career_wins"/>
+
+    <TextView
+        android:id="@+id/career_wins_text"
+        style="@style/driver_page"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/wins_text"/>
+
+    <TextView
+        android:id="@+id/career_podiums"
+        style="@style/driver_page_input_value"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/career_podiums"/>
+
+    <TextView
+        android:id="@+id/career_podiums_text"
+        style="@style/driver_page"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/podiums_text"/>
+
+    <TextView
+        android:id="@+id/career_fastest_laps"
+        style="@style/driver_page_input_value"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/career_fastest_laps"/>
+
+    <TextView
+        android:id="@+id/career_fastest_laps_text"
+        style="@style/driver_page"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/fastest_laps_text"/>
+
+    <TextView
+        android:id="@+id/career_gps"
+        style="@style/driver_page_input_value"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/career_races"/>
+
+    <TextView
+        android:id="@+id/career_gps_text"
+        style="@style/driver_page"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/races_text"/>
+
+    <!-- Season Section -->
+    <TextView
+        android:id="@+id/season_header"
+        style="@style/driver_page"
+        android:text="@string/season_header"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/season_wins"
+        style="@style/driver_page_input_value"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/season_wins"/>
+
+    <TextView
+        android:id="@+id/season_wins_text"
+        style="@style/driver_page"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/wins_text"/>
+
+    <TextView
+        android:id="@+id/season_podiums"
+        style="@style/driver_page_input_value"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/season_podiums"/>
+
+    <TextView
+        android:id="@+id/season_podiums_text"
+        style="@style/driver_page"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/podiums_text"/>
+
+    <TextView
+        android:id="@+id/season_fastest_laps"
+        style="@style/driver_page_input_value"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/season_fastest_laps"/>
+
+    <TextView
+        android:id="@+id/season_fastest_laps_text"
+        style="@style/driver_page"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/fastest_laps_text"/>
+
+    <TextView
+        android:id="@+id/season_gps"
+        style="@style/driver_page_input_value"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/season_races"/>
+
+    <TextView
+        android:id="@+id/season_gps_text"
+        style="@style/driver_page"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/races_text"/>
+
+    <!-- DOB and Nationality -->
+    <View
+        android:layout_width="350dp"
+        android:layout_height="5dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/divider_style" />
+
+    <TextView
+        android:id="@+id/driver_dob"
+        style="@style/driver_page_input_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/dob" />
+
+    <TextView
+        android:id="@+id/driver_dob_text"
+        style="@style/driver_page"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/dob_text"/>
+
+    <TextView
+        android:id="@+id/driver_nationality"
+        style="@style/driver_page_input_value"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nationality"/>
+
+    <TextView
+        android:id="@+id/driver_nationality_text"
+        style="@style/driver_page"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nationality_text"/>
+
+</GridLayout>

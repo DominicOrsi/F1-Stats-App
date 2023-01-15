@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+=======
+#----------------------------------------------------------------------
+# CPSC 321 Specific
+#----------------------------------------------------------------------
+
+#blanket ignored files (all files with the following extensions)
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.out
+*.lnk
+*.tmp
+*.sw[a-p]
+.DS_Store
+>>>>>>> 0311b2b (Initial commit)

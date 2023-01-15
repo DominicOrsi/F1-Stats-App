@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".search.SearchUpdateFastestLapFragment"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/update_title_text"
+        style="@style/driver_page"
+        android:text="@string/update_title"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/update_lap"
+        style="@style/driver_page"
+        android:text="@string/update_lap"
+        app:layout_constraintTop_toBottomOf="@id/update_title_text"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/update_lap_edit"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:autofillHints="Enter Track ID"
+        android:hint="@string/update_lap_hint"
+        android:inputType="number"
+        app:layout_constraintLeft_toRightOf="@id/update_lap"
+        app:layout_constraintTop_toBottomOf="@id/update_title_text" />
+
+    <TextView
+        android:id="@+id/update_lap_time"
+        style="@style/driver_page"
+        android:text="@string/update_lap_time"
+        app:layout_constraintTop_toBottomOf="@id/update_lap_edit"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/update_lap_time_edit"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="Enter Track ID"
+        android:hint="@string/update_lap_time_hint"
+        android:inputType="numberDecimal"
+        app:layout_constraintLeft_toRightOf="@id/update_lap_time"
+        app:layout_constraintTop_toBottomOf="@id/update_lap_edit" />
+
+    <TextView
+        android:id="@+id/lap_value"
+        style="@style/driver_page"
+        android:text="@string/temp"
+        app:layout_constraintTop_toBottomOf="@id/update_lap_time_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/lap_time_value"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/lap_time_value"
+        style="@style/driver_page"
+        android:text="@string/temp"
+        app:layout_constraintTop_toBottomOf="@id/update_lap_time_edit"
+        app:layout_constraintLeft_toRightOf="@id/lap_value"
+        android:paddingStart="10sp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/add_bt"
+        style="@style/search_button"
+        android:layout_marginTop="10dp"
+        android:text="@string/update_add_bt"
+        app:layout_constraintTop_toBottomOf="@id/update_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/update_bt"
+        style="@style/search_button"
+        android:layout_marginTop="52dp"
+        android:text="@string/update_update_bt"
+        app:layout_constraintTop_toBottomOf="@id/update_lap_time_edit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/remove_bt"
+        style="@style/search_button"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/update_remove_bt"
+        app:layout_constraintTop_toBottomOf="@id/add_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
