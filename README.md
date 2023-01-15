@@ -8,7 +8,7 @@ If the app is not used within one week of inactivity Supabase will pause the pro
 Green Sector provides new and existing Formula 1 fans with an easy to use and straight forward way to get / stay up to date with the current statistics of both the drivers and circuits in Formula 1. 
 
 ## App Pages
-The main pages in the app are the circuit page, ![circuit main page](/images/Circuit-Page.png) search page, ![search page](/images/Search-Page.png) and the driver page ![driver page](/images/Driver-Page.png). The circuit and the driver pages are both similar, listing stats across both pages. ![circuit stats page](/images/Circuit-Stats-Page.png) ![driver stats page](/images/Driver-Stats-Page.png).
+The main pages in the app are the circuit page, <img src="/images/Circuit-Page.png" alt="circuit main page" width="10%"> search page, ![search page](/images/Search-Page.png) and the driver page ![driver page](/images/Driver-Page.png). The circuit and the driver pages are both similar, listing stats across both pages. ![circuit stats page](/images/Circuit-Stats-Page.png) ![driver stats page](/images/Driver-Stats-Page.png).
 
 The search page shows the selected stats based of what is chosen from the page such as Championship standings at a certain point in the season ![championship standings page](/images/Championship-Standings.png) along with the fastest lap times for all the circuits. ![circuit fastest lap times](/images/Fastest-Lap-Overall.png)
 
