@@ -2,10 +2,17 @@
 A Formula 1 drivers and circuits statistics app
 
 ## **NOTES ON DATABASE**
-If the app is not used within one week of inactivity Supabase will pause the project. That means none of the buttons will work. In order to get around this please contact me and I will start the project up again. Sorry about this but it is a downside of using Supabase's free teir. Thanks. Also all sql insert statements are stored in the sql folder and the presentation is in the presentation folder.
+If the app is not used within one week of inactivity Supabase will pause the project. That means none of the buttons will work. In order to get around this please contact me and I will start the project up again. Sorry about this but it is a downside of using Supabase's free tier. Thanks. Also all sql insert statements are stored in the sql folder and the presentation is in the presentation folder.
 
 ## Project Summary
 Green Sector provides new and existing Formula 1 fans with an easy to use and straight forward way to get / stay up to date with the current statistics of both the drivers and circuits in Formula 1. 
+
+## App Pages
+The main pages in the app are the circuit page, ![circuit main page](/images/Circuit-Page.png) search page, ![search page](/images/Search-Page.png) and the driver page ![driver page](/images/Driver-Page.png). The circuit and the driver pages are both similar, listing stats across both pages. ![circuit stats page](/images/Circuit-Stats-Page.png) ![driver stats page](/images/Driver-Stats-Page.png).
+
+The search page shows the selected stats based of what is chosen from the page such as Championship standings at a certain point in the season ![championship standings page](/images/Championship-Standings.png) along with the fastest lap times for all the circuits. ![circuit fastest lap times](/images/Fastest-Lap-Overall.png)
+
+The user us also able to update and delete a drivers fastest lap time ![updating laps](/images/Update-Lap.gif)
 
 ## ER Diagram
 The ER Diagram for this app is shown below in the image. ![er diagram](/images/er-diagram.png)
@@ -321,4 +328,4 @@ $$;
 Installing GreenSector can be done by first installing [Android App Studio](https://developer.android.com/studio). Then you will want to clone the repository to a folder of your choosing. Once you have first installed Android App Studio and cloned the repository you can then open Android App Studio and open the cloned repository. Once GreenSector has been opened in Android App Studio you will need to create an emulator to run the app. On the right hand side of the screen, near the top right corner you will see a tab called "Device Manager". ![device manager](/images/device-manager.png) After opening Device Manager you will want to click on "Create Device". ![create device](images/create-device.png) Choose any device you want and then select Android Image "Tiramisu". ![tiramisu android system image](/images/tiramisu-image.png) After the device is created you will be able to run the project by selecting the green run arrow in the upper right hand corner. ![run app button](/images/run-button.png) The GreenSector will know run on your computer for you to enjoy.
 
 ## Current Developers
-The Current head developer of the Green Sector project is [Dominic Orsi](https://github.com/DominicOrsi).
+The Current head developer of the Green Sector project is [Dominic Orsi](https://github.com/DominicOrsi). An updated IOS and Android version is in the works.
