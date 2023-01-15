@@ -10,19 +10,19 @@ Green Sector provides new and existing Formula 1 fans with an easy to use and st
 ## App Pages
 The main pages in the app are the circuit page, search page, and the driver page. 
 
-<img src="/images/Circuit-Page.png" alt="circuit main page" width="30%"> <img src="/images/Search-Page.png" alt="search main page" width="30%"> <img src="/images/Driver-Page.png" alt="driver main page" width="30%"> 
+<p align="center"><img src="/images/Circuit-Page.png" alt="circuit main page" width="30%"> <img src="/images/Search-Page.png" alt="search main page" width="30%"> <img src="/images/Driver-Page.png" alt="driver main page" width="30%"></p>
 
 The circuit and the driver pages are both similar, listing stats across both pages. 
 
-<img src="/images/Circuit-Stats-Page.png" alt="circuit stats page" width="30%"> <img src="/images/Driver-Stats-Page.png" alt="driver stats page" width="30%">
+<p align="center"><img src="/images/Circuit-Stats-Page.png" alt="circuit stats page" width="30%"> <img src="/images/Driver-Stats-Page.png" alt="driver stats page" width="30%"></p>
 
 The search page shows the selected stats based of what is chosen from the page such as Championship standings at a certain point in the season, along with the fastest lap times for all the circuits. 
 
-<img src="/images/Championship-Standings.png" alt="championship standings page" width="30%"> <img src="/images/Fastest-Lap-Overall.png" alt="circuit fastest lap times" width="30%"> 
+<p align="center"><img src="/images/Championship-Standings.png" alt="championship standings page" width="30%"> <img src="/images/Fastest-Lap-Overall.png" alt="circuit fastest lap times" width="30%"></p>
 
 The user us also able to update and delete a drivers fastest lap time 
 
-<img src="/images/Update-Lap.gif" alt="updating laps" width="30%"> 
+<p align="center"><img src="/images/Update-Lap.gif" alt="updating laps" width="30%"></p>
 
 ## ER Diagram
 The ER Diagram for this app is shown below in the image. ![er diagram](/images/er-diagram.png)
