@@ -14,7 +14,7 @@
 .externalNativeBuild
 .cxx
 local.properties
-Keys.kt
+app/src/main/java/com/f1stats/greensector/Keys.kt
 =======
 #----------------------------------------------------------------------
 # CPSC 321 Specific
