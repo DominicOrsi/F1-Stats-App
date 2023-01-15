@@ -8,11 +8,21 @@ If the app is not used within one week of inactivity Supabase will pause the pro
 Green Sector provides new and existing Formula 1 fans with an easy to use and straight forward way to get / stay up to date with the current statistics of both the drivers and circuits in Formula 1. 
 
 ## App Pages
-The main pages in the app are the circuit page, <img src="/images/Circuit-Page.png" alt="circuit main page" width="40%"> search page, ![search page](/images/Search-Page.png) and the driver page ![driver page](/images/Driver-Page.png). The circuit and the driver pages are both similar, listing stats across both pages. ![circuit stats page](/images/Circuit-Stats-Page.png) ![driver stats page](/images/Driver-Stats-Page.png).
+The main pages in the app are the circuit page, search page, and the driver page. 
 
-The search page shows the selected stats based of what is chosen from the page such as Championship standings at a certain point in the season ![championship standings page](/images/Championship-Standings.png) along with the fastest lap times for all the circuits. ![circuit fastest lap times](/images/Fastest-Lap-Overall.png)
+<img src="/images/Circuit-Page.png" alt="circuit main page" width="30%"> <img src="/images/Search-Page.png" alt="search main page" width="30%"> <img src="/images/Driver-Page.png" alt="driver main page" width="30%"> 
 
-The user us also able to update and delete a drivers fastest lap time ![updating laps](/images/Update-Lap.gif)
+The circuit and the driver pages are both similar, listing stats across both pages. 
+
+<img src="/images/Circuit-Stats-Page.png" alt="circuit stats page" width="30%"> <img src="/images/Driver-Stats-Page.png" alt="driver stats page" width="30%">
+
+The search page shows the selected stats based of what is chosen from the page such as Championship standings at a certain point in the season, along with the fastest lap times for all the circuits. 
+
+<img src="/images/Championship-Standings.png" alt="championship standings page" width="30%"> <img src="/images/Fastest-Lap-Overall.png" alt="circuit fastest lap times" width="30%"> 
+
+The user us also able to update and delete a drivers fastest lap time 
+
+<img src="/images/Update-Lap.gif" alt="updating laps" width="30%"> 
 
 ## ER Diagram
 The ER Diagram for this app is shown below in the image. ![er diagram](/images/er-diagram.png)
