@@ -1,5 +1,5 @@
 # Green Sector
-A Formula 1 drivers and circuits statistics app
+A Formula 1 statistics app
 
 ## **NOTES ON DATABASE**
 If the app is not used within one week of inactivity Supabase will pause the project. That means none of the buttons will work. In order to get around this please contact me and I will start the project up again. Sorry about this but it is a downside of using Supabase's free tier. Thanks. Also all sql insert statements are stored in the sql folder.
